@@ -13,5 +13,6 @@ btn.addEventListener('click', function(){
     quotes.innerHTML = data.content;
     author.innerHTML = data.author;
   })
+  .catch((error)=>console.log(error))
 })
 
